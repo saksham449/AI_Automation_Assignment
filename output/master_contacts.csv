@@ -1,0 +1,102 @@
+name,email,phone,city,skills,source,identity_key
+Tanvi Gupta,tanvi.gupta31@example.com,9000000254,Bengaluru,"n8n, LangChain, REST APIs, MongoDB, SQL",naukri,tanvi.gupta31@example.com|9000000254
+Manish Reddy,manish.reddy73@example.com,9000000237,Gurgaon,"Docker, Zapier, JavaScript",naukri,manish.reddy73@example.com|9000000237
+Priya Singh,priya.singh61@mailtest.example.org,9000000287,Gurgaon,"React, Zapier, n8n, MySQL, Python, SQL",naukri,priya.singh61@mailtest.example.org|9000000287
+Vikram Saxena,vikram.saxena60@example.com,9000000113,Gurgaon,"Selenium, Web Scraping, React, Docker, SQL, FastAPI",naukri,vikram.saxena60@example.com|9000000113
+Amit Agarwal,amit.agarwal3@mailtest.example.org,9000000288,Pune,"SQL, Python, JavaScript, Docker",naukri,amit.agarwal3@mailtest.example.org|9000000288
+Sahil Malhotra,sahil.malhotra1@example.in,9000000143,Noida,"FastAPI, Docker, MySQL, Zapier, Pandas, REST APIs",naukri,sahil.malhotra1@example.in|9000000143
+Shreya Gupta,shreya.gupta85@example.com,9000000227,Noida,"Zapier, Web Scraping, Docker, n8n, Python",naukri,shreya.gupta85@example.com|9000000227
+Isha Chopra,isha.chopra95@mailtest.example.org,9000000138,Pune,"React, JavaScript, MySQL",naukri,isha.chopra95@mailtest.example.org|9000000138
+Priya Nair,priya.nair70@example.com,9000000222,Gurgaon,"Zapier, REST APIs, React, Python, n8n, Web Scraping",naukri,priya.nair70@example.com|9000000222
+Rohit Mishra,rohit.mishra70@mailtest.example.org,9000000167,Delhi,"Docker, Pandas, FastAPI, SQL, Zapier, MySQL",naukri,rohit.mishra70@mailtest.example.org|9000000167
+Rahul Malhotra,rahul.malhotra69@mailtest.example.org,9000000260,Delhi,"MySQL, REST APIs, SQL, MongoDB, Selenium",naukri,rahul.malhotra69@mailtest.example.org|9000000260
+Rahul Jain,rahul.jain34@example.in,9000000114,Noida,"Zapier, Selenium, Docker, Python",naukri,rahul.jain34@example.in|9000000114
+Nikhil Malhotra,nikhil.malhotra41@example.in,9000000145,Delhi,"FastAPI, JavaScript, Web Scraping, SQL, Python",naukri,nikhil.malhotra41@example.in|9000000145
+Karan Bhatia,karan.bhatia32@mailtest.example.org,9000000211,Noida,"SQL, MongoDB, Selenium, Zapier, Web Scraping, JavaScript",naukri,karan.bhatia32@mailtest.example.org|9000000211
+Ritu Sharma,ritu.sharma23@mailtest.example.org,9000000146,Noida,"n8n, Web Scraping, MongoDB, SQL, React",naukri,ritu.sharma23@mailtest.example.org|9000000146
+Arjun Mishra,arjun.mishra70@example.com,9000000106,Delhi,"React, Docker, JavaScript",naukri,arjun.mishra70@example.com|9000000106
+Meera Bhatia,meera.bhatia52@mailtest.example.org,9000000223,Delhi,"LangChain, Docker, MySQL, Python, SQL, React",naukri,meera.bhatia52@mailtest.example.org|9000000223
+Varun Jain,varun.jain29@example.com,9000000263,Pune,"n8n, Web Scraping, FastAPI, MySQL, Pandas, MongoDB",naukri,varun.jain29@example.com|9000000263
+Arjun Mehta,arjun.mehta9@example.in,9000000131,Noida,"SQL, Selenium, n8n",naukri,arjun.mehta9@example.in|9000000131
+Kavya Mehta,kavya.mehta7@example.com,9000000177,Bengaluru,"n8n, MongoDB, FastAPI, Pandas, React",naukri,kavya.mehta7@example.com|9000000177
+Sneha Chopra,sneha.chopra99@example.in,9000000162,Pune,"Pandas, React, MySQL, JavaScript, SQL",naukri,sneha.chopra99@example.in|9000000162
+Deepak Mehta,deepak.mehta86@example.in,9000000116,Noida,"MySQL, MongoDB, n8n, LangChain, REST APIs, Selenium",naukri,deepak.mehta86@example.in|9000000116
+Pooja Gupta,pooja.gupta57@mailtest.example.org,9000000271,Noida,"Docker, MySQL, SQL, n8n, Selenium",naukri,pooja.gupta57@mailtest.example.org|9000000271
+R. Verma,rohit.verma13@mailtest.example.org,9000000294,Bengaluru,"Python, React, MongoDB",naukri,rohit.verma13@mailtest.example.org|9000000294
+Sneha Mishra,sneha.mishra14@mailtest.example.org,9000000229,Pune,"MySQL, Docker, Selenium, Pandas",naukri,sneha.mishra14@mailtest.example.org|9000000229
+Nikhil Chopra,alt.nikhil.chopra70@example.com,9000000103,Noida,"Pandas, SQL, n8n",naukri,alt.nikhil.chopra70@example.com|9000000103
+Priya Saxena,priya.saxena61@example.com,9000000231,Delhi,"Python, MySQL, Zapier, React",naukri,priya.saxena61@example.com|9000000231
+Varun Saxena,varun.saxena21@example.in,9000000170,Gurgaon,"MongoDB, Zapier, SQL, LangChain, MySQL, REST APIs",naukri,varun.saxena21@example.in|9000000170
+Gaurav Mehta,gaurav.mehta79@mailtest.example.org,9000000133,Bengaluru,"REST APIs, SQL, Selenium, FastAPI",naukri,gaurav.mehta79@mailtest.example.org|9000000133
+Rohit Nair,rohit.nair32@mailtest.example.org,9000000268,Gurgaon,"REST APIs, n8n, Web Scraping, Docker",naukri,rohit.nair32@mailtest.example.org|9000000268
+Deepak Nair,deepak.nair44@example.com,9000000296,Bengaluru,"React, n8n, MongoDB, Pandas",naukri,deepak.nair44@example.com|9000000296
+Rahul Chopra,rahul.chopra70@example.com,9000000137,Noida,"Zapier, Docker, Python",naukri,rahul.chopra70@example.com|9000000137
+Deepak Singh,deepak.singh36@mailtest.example.org,9000000202,Bengaluru,"Web Scraping, FastAPI, Docker, React",naukri,deepak.singh36@mailtest.example.org|9000000202
+Amit Reddy,amit.reddy9@mailtest.example.org,9000000165,Delhi,"React, MySQL, LangChain",naukri,amit.reddy9@mailtest.example.org|9000000165
+Nikhil Chopra,nikhil.chopra70@example.com,9000000103,Noida,"Pandas, SQL, n8n",naukri,nikhil.chopra70@example.com|9000000103
+Tanvi Agarwal,tanvi.agarwal97@example.in,9000000148,Pune,"MongoDB, REST APIs, FastAPI, Web Scraping",naukri,tanvi.agarwal97@example.in|9000000148
+Nikhil Mehta,nikhil.mehta5@example.com,9000000104,Pune,"Docker, LangChain, Zapier, Selenium, Python, React",naukri,nikhil.mehta5@example.com|9000000104
+Isha Kapoor,isha.kapoor54@example.com,9000000295,Delhi,"FastAPI, Python, JavaScript, Selenium, React, MySQL",naukri,isha.kapoor54@example.com|9000000295
+Arjun Bhatia,arjun.bhatia14@example.com,9000000212,Delhi,"Zapier, REST APIs, SQL, FastAPI, Pandas, Web Scraping",naukri,arjun.bhatia14@example.com|9000000212
+Isha Sharma,isha.sharma15@example.com,9000000259,Delhi,"n8n, Python, Selenium, JavaScript, REST APIs, MongoDB",naukri,isha.sharma15@example.com|9000000259
+Neha Bhatia,neha.bhatia60@mailtest.example.org,9000000273,Pune,"FastAPI, Zapier, JavaScript, Selenium",naukri,neha.bhatia60@mailtest.example.org|9000000273
+Varun Jain,varun.jain29@example.com,,Pune,"n8n, web scraping, fastapi, mysql, pandas, mongodb",gig_workers,varun.jain29@example.com|
+Tanvi Agarwal,tanvi.agarwal97@example.in,,Pune,"mongodb, rest apis, fastapi, web scraping",gig_workers,tanvi.agarwal97@example.in|
+Karan Bhatia,karan.bhatia32@mailtest.example.org,,Noida,"sql, mongodb, selenium, zapier, web scraping, javascript",gig_workers,karan.bhatia32@mailtest.example.org|
+Arjun Mishra,arjun.mishra70@example.com,,Delhi,"react, docker, javascript",gig_workers,arjun.mishra70@example.com|
+Isha Kapoor,isha.kapoor54@example.com,,Delhi,"fastapi, python, javascript, selenium, react, mysql",gig_workers,isha.kapoor54@example.com|
+Isha Chopra,isha.chopra95@mailtest.example.org,,Pune,"react, javascript, mysql",gig_workers,isha.chopra95@mailtest.example.org|
+Meera Bhatia,meera.bhatia52@mailtest.example.org,,Delhi,"langchain, docker, mysql, python, sql, react",gig_workers,meera.bhatia52@mailtest.example.org|
+Vikram Saxena,vikram.saxena60@example.com,,Gurgaon,"selenium, web scraping, react, docker, sql, fastapi",gig_workers,vikram.saxena60@example.com|
+Rahul Chopra,rahul.chopra70@example.com,,Noida,"zapier, docker, python",gig_workers,rahul.chopra70@example.com|
+Tanvi Gupta,tanvi.gupta31@example.com,,Bengaluru,"n8n, langchain, rest apis, mongodb, sql",gig_workers,tanvi.gupta31@example.com|
+Varun Saxena,varun.saxena21@example.in,,Gurgaon,"mongodb, zapier, sql, langchain, mysql, rest apis",gig_workers,varun.saxena21@example.in|
+Sneha Chopra,sneha.chopra99@example.in,,Pune,"pandas, react, mysql, javascript, sql",gig_workers,sneha.chopra99@example.in|
+Deepak Nair,deepak.nair44@example.com,,Bengaluru,"react, n8n, mongodb, pandas",gig_workers,deepak.nair44@example.com|
+Gaurav Mehta,gaurav.mehta79@mailtest.example.org,,Bengaluru,"rest apis, sql, selenium, fastapi",gig_workers,gaurav.mehta79@mailtest.example.org|
+Neha Bhatia,neha.bhatia60@mailtest.example.org,,Pune,"fastapi, zapier, javascript, selenium",gig_workers,neha.bhatia60@mailtest.example.org|
+Arjun Mehta,arjun.mehta77@mailtest.example.org,,Noida,"fastapi, pandas, web scraping, zapier, docker, mysql",gig_workers,arjun.mehta77@mailtest.example.org|
+Manish Bhatia,manish.bhatia3@example.com,,Noida,"pandas, docker, javascript, react, rest apis, web scraping",gig_workers,manish.bhatia3@example.com|
+Divya Chopra,divya.chopra59@example.in,,Noida,"zapier, docker, mongodb, fastapi",gig_workers,divya.chopra59@example.in|
+Karan Chopra,karan.chopra76@mailtest.example.org,,Pune,"n8n, selenium, python, mongodb, pandas",gig_workers,karan.chopra76@mailtest.example.org|
+Vikram Mehta,vikram.mehta6@example.com,,Pune,"rest apis, python, langchain",gig_workers,vikram.mehta6@example.com|
+Pooja Kapoor,pooja.kapoor62@example.in,,Noida,"rest apis, sql, react",gig_workers,pooja.kapoor62@example.in|
+Kavya Verma,kavya.verma74@mailtest.example.org,,Gurgaon,"sql, pandas, web scraping, react",gig_workers,kavya.verma74@mailtest.example.org|
+Tanvi Reddy,tanvi.reddy80@example.com,,Pune,"langchain, docker, python, rest apis, sql",gig_workers,tanvi.reddy80@example.com|
+Varun Singh,varun.singh81@example.com,,Noida,"python, react, fastapi, mongodb",gig_workers,varun.singh81@example.com|
+Tanvi Kapoor,tanvi.kapoor38@example.com,,Delhi,"docker, selenium, web scraping, mysql",gig_workers,tanvi.kapoor38@example.com|
+Nikhil Nair,nikhil.nair26@example.in,,Gurgaon,"python, n8n, web scraping",gig_workers,nikhil.nair26@example.in|
+Pooja Reddy,pooja.reddy96@mailtest.example.org,,Noida,"pandas, docker, fastapi, web scraping, sql",gig_workers,pooja.reddy96@mailtest.example.org|
+Tanvi Sharma,tanvi.sharma56@mailtest.example.org,,Noida,"langchain, python, web scraping, n8n, fastapi",gig_workers,tanvi.sharma56@mailtest.example.org|
+Deepak Nair,deepak.nair57@example.in,,Delhi,"javascript, react, docker, web scraping, mysql, sql",gig_workers,deepak.nair57@example.in|
+Anjali Agarwal,anjali.agarwal53@mailtest.example.org,,Bengaluru,"sql, javascript, selenium, rest apis, docker, react",gig_workers,anjali.agarwal53@mailtest.example.org|
+Rohit Nair,,9000000268,Gurgaon,,cbnexus,|9000000268
+Ritu Sharma,,9000000146,Noida,,cbnexus,|9000000146
+Priya Saxena,,9000000231,Delhi,,cbnexus,|9000000231
+Arjun Mehta,,9000000131,Noida,,cbnexus,|9000000131
+Nikhil Mehta,,9000000104,Pune,,cbnexus,|9000000104
+Rahul Malhotra,,9000000260,Delhi,,cbnexus,|9000000260
+Deepak Mehta,,9000000116,Noida,,cbnexus,|9000000116
+Sahil Malhotra,,9000000143,Noida,,cbnexus,|9000000143
+Shreya Gupta,,9000000227,Noida,,cbnexus,|9000000227
+Priya Singh,,9000000287,Gurgaon,,cbnexus,|9000000287
+Varun Jain,,9000000263,Pune,,cbnexus,|9000000263
+Tanvi Agarwal,,9000000148,Pune,,cbnexus,|9000000148
+Karan Bhatia,,9000000211,Noida,,cbnexus,|9000000211
+Arjun Mishra,,9000000106,Delhi,,cbnexus,|9000000106
+Isha Kapoor,,9000000295,Delhi,,cbnexus,|9000000295
+Isha Chopra,,9000000138,Pune,,cbnexus,|9000000138
+Meera Bhatia,,9000000223,Delhi,,cbnexus,|9000000223
+Vikram Saxena,,9000000113,Gurgaon,,cbnexus,|9000000113
+Rahul Chopra,,9000000137,Noida,,cbnexus,|9000000137
+Tanvi Gupta,,9000000254,Bengaluru,,cbnexus,|9000000254
+Varun Saxena,,9000000170,Gurgaon,,cbnexus,|9000000170
+Sneha Chopra,,9000000162,Pune,,cbnexus,|9000000162
+Deepak Nair,,9000000296,Bengaluru,,cbnexus,|9000000296
+Gaurav Mehta,,9000000133,Bengaluru,,cbnexus,|9000000133
+Neha Bhatia,,9000000273,Pune,,cbnexus,|9000000273
+Arjun Mehta,,9000000272,Noida,,cbnexus,|9000000272
+Manish Bhatia,,9000000161,Noida,,cbnexus,|9000000161
+Divya Chopra,,9000000111,Noida,,cbnexus,|9000000111
+Karan Chopra,,9000000245,Pune,,cbnexus,|9000000245
+Vikram Mehta,,9000000261,Pune,,cbnexus,|9000000261

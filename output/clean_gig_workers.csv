@@ -1,0 +1,31 @@
+email,name,rate,city,status,skills,rate_value,rate_period,source
+varun.jain29@example.com,Varun Jain,1415/hr,Pune,Active,"n8n, web scraping, fastapi, mysql, pandas, mongodb",1415.0,hour,gig_workers
+tanvi.agarwal97@example.in,Tanvi Agarwal,1231/hr,Pune,Active,"mongodb, rest apis, fastapi, web scraping",1231.0,hour,gig_workers
+karan.bhatia32@mailtest.example.org,Karan Bhatia,403/hr,Noida,Active,"sql, mongodb, selenium, zapier, web scraping, javascript",403.0,hour,gig_workers
+arjun.mishra70@example.com,Arjun Mishra,440/hr,Delhi,Active,"react, docker, javascript",440.0,hour,gig_workers
+isha.kapoor54@example.com,Isha Kapoor,15k/month,Delhi,Active,"fastapi, python, javascript, selenium, react, mysql",15000.0,month,gig_workers
+isha.chopra95@mailtest.example.org,Isha Chopra,1406/hr,Pune,Active,"react, javascript, mysql",1406.0,hour,gig_workers
+meera.bhatia52@mailtest.example.org,Meera Bhatia,330/hr,Delhi,Active,"langchain, docker, mysql, python, sql, react",330.0,hour,gig_workers
+vikram.saxena60@example.com,Vikram Saxena,843/hr,Gurgaon,Active,"selenium, web scraping, react, docker, sql, fastapi",843.0,hour,gig_workers
+rahul.chopra70@example.com,Rahul Chopra,72k/month,Noida,Inactive,"zapier, docker, python",72000.0,month,gig_workers
+tanvi.gupta31@example.com,Tanvi Gupta,1331/hr,Bengaluru,Paused,"n8n, langchain, rest apis, mongodb, sql",1331.0,hour,gig_workers
+varun.saxena21@example.in,Varun Saxena,917/hr,Gurgaon,Inactive,"mongodb, zapier, sql, langchain, mysql, rest apis",917.0,hour,gig_workers
+sneha.chopra99@example.in,Sneha Chopra,28k/month,Pune,Active,"pandas, react, mysql, javascript, sql",28000.0,month,gig_workers
+deepak.nair44@example.com,Deepak Nair,465/hr,Bengaluru,Paused,"react, n8n, mongodb, pandas",465.0,hour,gig_workers
+gaurav.mehta79@mailtest.example.org,Gaurav Mehta,56k/month,Bengaluru,Active,"rest apis, sql, selenium, fastapi",56000.0,month,gig_workers
+neha.bhatia60@mailtest.example.org,Neha Bhatia,79k/month,Pune,Active,"fastapi, zapier, javascript, selenium",79000.0,month,gig_workers
+arjun.mehta77@mailtest.example.org,Arjun Mehta,42k/month,Noida,Inactive,"fastapi, pandas, web scraping, zapier, docker, mysql",42000.0,month,gig_workers
+manish.bhatia3@example.com,Manish Bhatia,73k/month,Noida,Active,"pandas, docker, javascript, react, rest apis, web scraping",73000.0,month,gig_workers
+divya.chopra59@example.in,Divya Chopra,55k/month,Noida,Inactive,"zapier, docker, mongodb, fastapi",55000.0,month,gig_workers
+karan.chopra76@mailtest.example.org,Karan Chopra,437/hr,Pune,Active,"n8n, selenium, python, mongodb, pandas",437.0,hour,gig_workers
+vikram.mehta6@example.com,Vikram Mehta,22k/month,Pune,Active,"rest apis, python, langchain",22000.0,month,gig_workers
+pooja.kapoor62@example.in,Pooja Kapoor,21k/month,Noida,Active,"rest apis, sql, react",21000.0,month,gig_workers
+kavya.verma74@mailtest.example.org,Kavya Verma,1483/hr,Gurgaon,Active,"sql, pandas, web scraping, react",1483.0,hour,gig_workers
+tanvi.reddy80@example.com,Tanvi Reddy,59k/month,Pune,Paused,"langchain, docker, python, rest apis, sql",59000.0,month,gig_workers
+varun.singh81@example.com,Varun Singh,763/hr,Noida,Active,"python, react, fastapi, mongodb",763.0,hour,gig_workers
+tanvi.kapoor38@example.com,Tanvi Kapoor,38k/month,Delhi,Active,"docker, selenium, web scraping, mysql",38000.0,month,gig_workers
+nikhil.nair26@example.in,Nikhil Nair,1018/hr,Gurgaon,Active,"python, n8n, web scraping",1018.0,hour,gig_workers
+pooja.reddy96@mailtest.example.org,Pooja Reddy,590/hr,Noida,Inactive,"pandas, docker, fastapi, web scraping, sql",590.0,hour,gig_workers
+tanvi.sharma56@mailtest.example.org,Tanvi Sharma,73k/month,Noida,Active,"langchain, python, web scraping, n8n, fastapi",73000.0,month,gig_workers
+deepak.nair57@example.in,Deepak Nair,1462/hr,Delhi,Active,"javascript, react, docker, web scraping, mysql, sql",1462.0,hour,gig_workers
+anjali.agarwal53@mailtest.example.org,Anjali Agarwal,71k/month,Bengaluru,Inactive,"sql, javascript, selenium, rest apis, docker, react",71000.0,month,gig_workers
