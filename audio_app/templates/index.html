@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>ConsultBae Audio Collection</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+    <h1>ConsultBae Audio Collection</h1>
+
+    <p class="subtitle">
+        Submit an audio recording and automatically
+        analyze its properties.
+    </p>
+
+
+    <!-- ================================================= -->
+    <!-- UPLOAD FORM -->
+    <!-- ================================================= -->
+
+    <div class="card">
+
+        <h2>New Submission</h2>
+
+        <form
+            action="/upload"
+            method="POST"
+            enctype="multipart/form-data"
+        >
+
+            <label>
+                Name
+            </label>
+
+            <input
+                type="text"
+                name="name"
+                placeholder="Enter your name"
+                required
+            >
+
+
+            <label>
+                Phone
+            </label>
+
+            <input
+                type="text"
+                name="phone"
+                placeholder="Enter your phone number"
+                required
+            >
+
+
+            <label>
+                Audio File
+            </label>
+
+            <input
+                type="file"
+                name="audio"
+                accept="audio/*"
+                required
+            >
+
+
+            <button type="submit">
+                Upload Audio
+            </button>
+
+        </form>
+
+    </div>
+
+
+    <!-- ================================================= -->
+    <!-- SUBMISSIONS -->
+    <!-- ================================================= -->
+
+    <div class="card">
+
+        <h2>Audio Submissions</h2>
+
+        {% if submissions %}
+
+        <div class="table-wrapper">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Name</th>
+
+                        <th>Phone</th>
+
+                        <th>Audio</th>
+
+                        <th>Duration</th>
+
+                        <th>Sample Rate</th>
+
+                        <th>Bitrate</th>
+
+                        <th>Loudness</th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                {% for item in submissions %}
+
+                    <tr>
+
+                        <td>
+                            {{ item["name"] }}
+                        </td>
+
+                        <td>
+                            {{ item["phone"] }}
+                        </td>
+
+                        <td>
+
+                            <audio controls>
+
+                                <source
+                                    src="{{ url_for(
+                                        'audio',
+                                        filename=item['filename']
+                                    ) }}"
+                                >
+
+                            </audio>
+
+                        </td>
+
+                        <td>
+                            {{ item["duration_seconds"] }} sec
+                        </td>
+
+                        <td>
+                            {{ item["sample_rate_khz"] }} kHz
+                        </td>
+
+                        <td>
+                            {{ item["bitrate_kbps"] }} kbps
+                        </td>
+
+                        <td>
+                            {{ item["loudness_db"] }} dB
+                        </td>
+
+                    </tr>
+
+                {% endfor %}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+        {% else %}
+
+        <p>
+            No submissions yet.
+        </p>
+
+        {% endif %}
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
