@@ -1,0 +1,3 @@
+name,email,phone,city,skills,source,identity_key
+Tanvi Gupta,tanvi.gupta31@example.com,9000000254,Bengaluru,"n8n, LangChain, REST APIs, MongoDB, SQL",naukri,tanvi.gupta31@example.com|9000000254
+Demo Person,demo.person@example.com,8888888888,Delhi,"Python, FastAPI, SQL",demo,demo.person@example.com|8888888888

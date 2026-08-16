@@ -1,0 +1,231 @@
+{
+  "name": "ConsultBae - Duplicate Contact Detection",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -80,
+        -32
+      ],
+      "id": "1730482b-eadd-4370-8d4e-d8616d4603d1",
+      "name": "Read Incoming CSV"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:5000/check-duplicate",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "email",
+              "value": "={{ $json.email }}"
+            },
+            {
+              "name": "phone",
+              "value": "={{ $json.phone }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        480,
+        240
+      ],
+      "id": "94d51076-9eb4-436c-ba15-acb4cfcbf3c5",
+      "name": "Check SQLite Duplicate"
+    },
+    {
+      "parameters": {
+        "fileSelector": "C:\\Users\\hp\\consultbae-automation\\output\\demo_contacts.csv",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [
+        96,
+        240
+      ],
+      "id": "c0d8e94a-b83d-4162-a4e3-9fb74f9a7270",
+      "name": "Read Incoming CSV1"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.1,
+      "position": [
+        288,
+        16
+      ],
+      "id": "633e9dc8-1187-4680-b6a6-bf1e019b4914",
+      "name": "Parse Contact CSV"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "1ff947c7-c8ac-4a54-904a-e79f70c65c99",
+              "leftValue": "={{ $json.duplicate }}",
+              "rightValue": "=true",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        672,
+        80
+      ],
+      "id": "853ae433-3da5-459f-b4f2-b5c73ef3d843",
+      "name": "Duplicate?"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://webhook.site/429cde9d-dbdf-4d92-9807-15f907992fb4",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"duplicate\": true,\n  \"matched_contact\": {\n    \"name\": \"Tanvi Gupta\",\n    \"email\": \"tanvi.gupta31@example.com\",\n    \"phone\": \"9000000254\",\n    \"city\": \"Bengaluru\",\n    \"source\": \"naukri\"\n  }\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        912,
+        -16
+      ],
+      "id": "62457b70-9f95-4d03-b189-cedd95800816",
+      "name": "🚨 Duplicate Alert"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "65298c1d-f508-4ea4-b438-86736efafaa6",
+              "name": "status",
+              "value": "NEW_CONTACT",
+              "type": "string"
+            },
+            {
+              "id": "9f5827dd-0a2d-4fa5-9d38-f08ba8ec065c",
+              "name": "message",
+              "value": "Contact is not present in the database.",
+              "type": "string"
+            }
+          ]
+        },
+        "includeOtherFields": true,
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        896,
+        256
+      ],
+      "id": "7849b28a-accb-4e2e-840f-bd22d9b5de6f",
+      "name": "✅ New Contact"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Read Incoming CSV": {
+      "main": [
+        [
+          {
+            "node": "Read Incoming CSV1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check SQLite Duplicate": {
+      "main": [
+        [
+          {
+            "node": "Duplicate?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read Incoming CSV1": {
+      "main": [
+        [
+          {
+            "node": "Parse Contact CSV",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse Contact CSV": {
+      "main": [
+        [
+          {
+            "node": "Check SQLite Duplicate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Duplicate?": {
+      "main": [
+        [
+          {
+            "node": "🚨 Duplicate Alert",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "✅ New Contact",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "a2bf4dcd-8bbe-43c9-a667-03568c85ff7b",
+  "meta": {
+    "instanceId": "c59f5a63b8d5a88c681f55acd0d08c261e26f2b11649061084ed022d374eef37"
+  },
+  "nodeGroups": [],
+  "id": "QHHxvuHTBeO8B17s",
+  "tags": []
+}
