@@ -1,4 +1,4 @@
-# ConsultBae — AI Automation Assignment
+# ConsultBae AI Automation Assignment
 
 A Python-based automation prototype that combines **data cleaning,
 deduplication, SQLite, n8n workflow automation, a Flask API, and an audio
